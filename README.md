@@ -10,7 +10,7 @@
 ## Repository Structure
 | Path         | Description |
 |--------------|-------------|
-| `CWK1.ipynb` | Runnable Google Colab / Jupyter notebook covering Tasks 1, 2 and 3 (Cells 1–20). |
+| `CWK1.ipynb` | Runnable Google Colab / Jupyter notebook covering Tasks 1, 2 and 3 (Cells 1–21). |
 | `data/`      | Saved raw daily CSV snapshots (`Close`, `Adj Close`, `Volume`, `Stock Splits`, `Dividends`, `^GSPC`, Wikipedia tickers) and `data_provenance.json` with SHA-256 checksums.|
 | `outputs/`   | Reproducible analytical tables: `package_versions.csv`, `exclusion_log.csv`, `worked_example_AAPL_60d.csv`, `task1_feature_table.csv`, `master_feature_and_cluster_assignments.csv` (all 4 baseline models + R-F sensitivity), `k=2..8` evaluation metrics, original-unit profiles, PCA loadings, correlations, cross-tabs and GICS sector breakdowns. |
 | `figures/`  | Saved 150-DPI PNG charts: feature distributions, Ward dendrograms, Elbow/Silhouette comparisons, labelled Risk-Return scatter plots, RFM 2D PCA & snake plots, Monetary-removal boxplots, Data Mart star schema and GICS sector stacked bars. |
